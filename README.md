@@ -1,4 +1,4 @@
 TheZineRESTClient
 =================
 
-Android REST client for TheZineREST
+Android REST client library for TheZineREST
