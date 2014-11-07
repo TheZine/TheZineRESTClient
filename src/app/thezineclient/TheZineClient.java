@@ -7,7 +7,7 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 
 
 public class TheZineClient {
-	//10.0.2.2:5000
+	//localhost rest server 10.0.2.2:5000
     private static final String API_BASE_URL = "http://thezine.herokuapp.com/v1/";
     private static AsyncHttpClient client = new AsyncHttpClient();
     
