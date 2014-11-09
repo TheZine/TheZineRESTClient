@@ -22,6 +22,7 @@ public class TheZineClient {
         client.get(url, null, handler);
     } 
     
+    //Getting a single article
     public static void getArticle(JsonHttpResponseHandler handler,String articleId){
     	String url;
     	if(articleId.length() > 0)
