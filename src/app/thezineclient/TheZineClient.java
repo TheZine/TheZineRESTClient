@@ -22,7 +22,7 @@ public class TheZineClient {
         client.get(url, null, handler);
     } 
     
-    //Getting a single article
+    //Getting a single article details
     public static void getArticle(JsonHttpResponseHandler handler,String articleId){
     	String url;
     	if(articleId.length() > 0)
@@ -31,6 +31,7 @@ public class TheZineClient {
     		url = "";
     	client.get(url, null,handler);
     }    
+    
     
     public static void getAuthor(JsonHttpResponseHandler handler,String authorId){
     	String url;
