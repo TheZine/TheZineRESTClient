@@ -32,7 +32,7 @@ public class TheZineClient {
     	client.get(url, null,handler);
     }    
     
-    
+    //Getting a single author details
     public static void getAuthor(JsonHttpResponseHandler handler,String authorId){
     	String url;
     	if(authorId.length() > 0)
