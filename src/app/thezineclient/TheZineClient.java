@@ -42,6 +42,7 @@ public class TheZineClient {
     	client.get(url, null,handler);
     }
     
+    // helper function
     private static String getApiUrl(String relativeUrl) {
         return API_BASE_URL + relativeUrl;
     }
