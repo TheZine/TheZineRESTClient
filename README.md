@@ -6,6 +6,9 @@ Android REST client library for The Zine API
 Features
 ========
 
+Dependencies
+============
+
 LICENSE
 =======
 
