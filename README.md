@@ -9,7 +9,7 @@ Features
 Dependencies
 ============
 
-asynchttp
+`asynchttp`
 
 LICENSE
 =======
