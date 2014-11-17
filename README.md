@@ -9,6 +9,8 @@ Features
 Dependencies
 ============
 
+asynchttp
+
 LICENSE
 =======
 
