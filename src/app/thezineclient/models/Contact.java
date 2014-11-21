@@ -35,6 +35,7 @@ public class Contact implements java.io.Serializable{
 		this.link = link;
 	}
 	
+	// For returning JSON object 
 	public static Contact fromJson(JSONObject jsonObject){
         Contact c = new Contact();
         try {
