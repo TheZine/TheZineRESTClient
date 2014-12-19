@@ -35,6 +35,7 @@ public class TheZineClient {
     //Getting a single author details
     public static void getAuthor(JsonHttpResponseHandler handler,String authorId){
     	String url;
+    	// Validating authorId
     	if(authorId.length() > 0)
     		url = getApiUrl("author/"+authorId);
     	else
