@@ -1,7 +1,7 @@
 The Zine REST Client
 =================
 
-Android REST client library for The Zine API
+Android REST client library for The Zine REST API
 
 Dependencies
 ============
