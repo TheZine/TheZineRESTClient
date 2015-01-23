@@ -9,6 +9,7 @@ public class Contact implements java.io.Serializable{
 	private String facebook;
 	private String twitter;
 	private String link;
+	privatte static final String
 	
 	public String getEmail() {
 		return email;
